@@ -1,0 +1,118 @@
+body{
+   background:  #00121A;
+}
+
+
+#container {
+    text-align: center;
+}
+
+#container img{
+    width: 40vw;
+    margin-top: 13vh;
+}
+
+.login{
+    background-color: #041B24;
+    opacity: 1.0;
+    width: 35vw;
+    padding: 2vh 1vw;
+    border-radius: 10px ;
+    border: none;
+    margin-top: 8vh;
+}
+
+#checkbox{
+    position: absolute;
+    left: 32vw;
+    margin-top: 2vh;
+    color: rgba(255, 255, 255, 0.2);
+    font-size: 18px;
+}
+
+.logar{
+    background-color: #DE423E;
+    color: white;
+    font-size: 24px;
+    margin-top: 7vh;
+    border: none;
+    padding: 2vh 2vw;
+    text-align: center;
+    border-radius: 10px;
+    width: 37vw;
+    cursor: pointer;
+}
+
+.links {
+    color: #45D0C1;
+    margin-top: 1vh;
+}
+
+
+#esqueci{
+  position: absolute;
+  left: 32vw;
+}
+
+#primeiro{
+    
+   position: absolute;
+   right: 32vw;
+}
+
+
+#contas-alternativas{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 10vh;
+    width: 35vw;
+    grid-gap: 3vw;
+    position: absolute;
+    left: 32vw;
+}
+
+
+#google{
+    border-top: 2px solid white;
+    height: 20vh;
+    padding-top: 5vh;
+}
+
+#microsoft{
+    border-top: 2px solid white;
+    padding-top: 5vh;
+    height: 20vh;
+}
+
+.button{   
+    background: #00121A;
+    width: 5vw;
+    padding: 20px 50px;
+    border-radius: 9px;
+    border: 1px solid white;
+    text-decoration: none;
+    color: #686A6A;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#googleb{
+    background-image: url(../Imagens/google\ icon\ login\ 1.png) ;
+    background-repeat: no-repeat;
+    background-size: 5vh;
+    background-position: 5px;
+}
+
+#microsoftb{
+    background-image: url(../Imagens/microsoft-icon-login\ 1.png) ;
+    background-repeat: no-repeat;
+    background-size: 4vh;
+    background-position: 5px;
+}
+
+
+h4{
+    color: white;
+    margin-bottom: -11vh;
+    margin-right: 1vw;
+}

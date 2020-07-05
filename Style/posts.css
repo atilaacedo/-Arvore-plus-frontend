@@ -1,0 +1,101 @@
+body{
+    background-color: #00121A;
+    overflow: hidden;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+
+#navegacaolateral{
+    margin-top: 0;
+    width: 15vw;
+    height: 100vh ;
+    border: 2px solid #45D0C1;
+    box-sizing: border-box;
+    border-radius:0px  100px  0px 0px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    
+}
+
+#navegacaolateral ul li{
+    padding: 3.4vh 0vw;
+}
+
+#navegacaolateral ul li a{
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+    padding-bottom: 2vh ;
+    font-weight: bold;
+    
+}
+
+#navegacaolateral ul li  img{
+    width: 10vw;
+    border-bottom: none;
+}
+
+#direita{
+    float: right;
+    margin-top: 0;
+    width: 22vw;
+    height: 99vh ;
+    border: 2px solid #45D0C1;
+    box-sizing: border-box;
+    border-radius:  0px  100px   0px  0px ;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    position: absolute;
+    top: 1%;
+    right: 1px;
+}
+
+#chat{
+    position: absolute;
+    top: 25%;
+    background-color: #00121A;
+    right: 1vw;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+
+#nav{
+    width: 57vw;
+    position: absolute;
+    top: 20%;
+    left: 15vw;
+    border-top: 2px solid #45D0C1;
+    border-bottom: 2px solid #45D0C1;
+    padding: 2vh 3vw;
+}
+
+#nav a{
+    padding: 0 3vw;
+}
+
+#nav input{
+    width: 20vw;
+    float: right;
+    background: #0F3A4C;
+    background-image: url(../Imagens/Vector.png);
+    background-repeat: no-repeat;
+    background-position: 20vw;
+    border-radius: 19.3917px;
+    padding: 1vh 1vw;
+    border: none;
+}
+
+#stories{
+    position: absolute;
+    top: 2%;
+    left: 24vw;
+}
+
+#stories img{
+    height: 15vh;
+}

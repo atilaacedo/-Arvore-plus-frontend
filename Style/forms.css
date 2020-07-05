@@ -1,0 +1,54 @@
+#content{
+    position: absolute;
+    top: 40%;
+    left: 31.5vw;
+}
+
+.input {
+    padding: 10px;
+}
+
+.input input{
+    width: 30vw;
+    display: block;
+    padding: 0vh 1vw;
+    margin-top: 2vh;
+}
+
+#imagem{
+    height: 20vh;
+    border: 2px solid #45D0C1;
+}
+
+
+#forms input{
+    width: 30vw;
+    background: #0F3A4C;
+    border-radius: 19.3917px;
+    padding: 2vh 1vw;
+    border: none;
+}
+
+
+.button{
+    color: white;
+    background: #DE423E;
+    border-radius: 10px;
+    border: none;
+    width: 8vw;
+    height: 5vh;
+    cursor: pointer;
+    position: absolute;
+    left: 25vw;
+}
+
+
+#stories{
+    position: absolute;
+    top: 2%;
+    left: 24vw;
+}
+
+#stories img{
+    height: 15vh;
+}

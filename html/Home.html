@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home</title>
+        <link rel="stylesheet" href="../Style/style.css">
+        <link rel="stylesheet" href="../Style/home.css">
+        <script src="../Scripts/jquery.js"></script>
+        <script src="../Scripts/slide.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            
+            <div id="navegacao">
+                <ul id="topo">
+                    <div id="mano">
+                   <li> <a href="#">Home</a></li>
+                   <li class="maior"><a  href="biblioteca.html">Biblioteca</a></li>
+                    </div>
+                    <li><img src="../Imagens/Logo.svg" alt=""></li>
+                   <div id="cara">
+                       
+                        <li ><a class="maior" href="posts.html">Interaja</a></li>
+                        <li><a href="login.html">Conectar</a></li>
+                   </div>
+                </ul>
+
+            </div>
+
+            <div id="conteudo">
+                <h1 class="titulo">A Árvore tem novidades!</h1>
+                <p id="paragrafo">
+                    Acesso exclusivo para alunos do Ensino Médio. Conteúdo Dinâmico e interação online.
+                </p>
+
+                <a id="conectar" href="login.html" >Conectar</a>
+            </div>
+
+            
+            <div id="slide">
+                <h4>Entenda Mais!</h4>
+                <img src="../Imagens/Vector 15.png" alt="">
+
+                <a href="#" id="home" class="bolinha"></a>
+                <a  href="#" id="biblioteca" class="bolinha" onclick="onOff()"></a>
+                <a href="#" id="interaja" class="bolinha" onclick="Next()"></a>
+            </div>
+        </div>  
+            <div id="modal"  class="hide">
+                <div class="content">
+                    <img  src="../Imagens/arrow.png" alt="">
+                   <div id="geral">
+                    <p>
+                      <span id="paragrafo-2"> Aqui você vai encontrar a biblioteca casual da Árvore <br> com apenas os livros que irá te interessar! Se você <br> não tiver uma escola parceira<span><a href="https://arvoreeducacao.com.br/">  <span> clique aqui </span></a> e saiba <br> mais.
+                       
+                    </p>
+                        <div id="botao">
+                            <a class="button" onclick="Next()" href="#">Próximo</a>
+                        </div>
+                    </div>
+                 </div>
+                 
+            </div>
+
+
+            <div id="modal2" class="hide2">
+                <div class="content2">
+                    <img  src="../Imagens/arrow.png" alt="">
+                   <div id="geral2">
+                    <p id="paragrafo-3">
+                        Intereja com sua turma e com seu professor, poste o <br> livro que você está lendo e se divirta aprendendo <br> com os vídeos sugeridos, outras sugestões e chats.
+                       
+                    </p>
+                        <div id="botao2">
+                            <a class="button" href="Home.html">Finalizar</a>
+                        </div>
+                    </div>
+                 </div>
+            </div>
+      
+    </body>
+</html>

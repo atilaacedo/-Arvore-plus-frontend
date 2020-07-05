@@ -1,0 +1,146 @@
+body{
+    background-color:  #00121A;
+}
+
+header{
+    margin: 2vh 1vw;
+}
+
+header ul li{
+    list-style: none;
+    display: inline;
+    padding: 0 4vw;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: white;
+    line-height: 14vh;
+    padding: 2vw;
+    font-size: 24px;
+}
+
+#perfil{
+    float: right;
+    height: 13vh
+}
+
+#logo{
+    float: left;
+    margin-left: -3vw;
+}
+
+/*Navegação*/
+
+nav{
+    
+    background-color: #0F3A4D;
+    height:10vh;
+    width: 100%;
+    margin: auto 0;
+}
+
+#navegação{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 30px
+}
+
+#navegação li {
+    display: inline;
+}
+
+#nav{
+    margin: 0 2vw;
+    padding-top: 3vh;
+}
+
+#nav li{
+    padding: 0 2vw;
+}
+
+#nav li a{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    color: white;
+    text-decoration: none;
+}
+
+#nav li input{
+    margin-right: 3vw;
+    float: right;
+    background: #00121A;
+    background-image: url(../Imagens/Vector.png);
+    background-repeat: no-repeat;
+    background-position: 13vw;
+    border-radius: 19.3917px;
+    padding: 1vh 1vw;
+    border: none;
+}
+
+h2{
+    color: white;
+    font-size: 32px;
+    margin-top: 5vh;
+    margin-left: 7vw;
+}
+
+
+#livros #exibirlivros a img{
+    width: 12vw;
+    height: 35vh;
+}
+
+#livros #exibirlivros a{
+    text-decoration: none;
+}
+
+#exibirlivros{
+    margin: 1vh 5vw;
+}
+
+h4{
+    color: white;
+    font-size: 20px;
+    margin-top: -0.1vh;
+    
+}
+
+h5{
+    color: #3BB1A7;
+    font-size: 18px;
+    margin-top: -3vh;
+}
+
+
+td a img:hover{
+    opacity: 0.1;
+}
+
+
+
+/*Metas*/
+#foto_de_perfil img{
+    position: absolute;
+    left: 5vw;
+    top: 40vh;
+    height: 20vh;
+}
+
+#dados img{
+    height: 60vh;
+    position: absolute;
+    left: 30vw;
+    top: 40%;
+}
+
+#setinha{
+    position: absolute;
+    right: 2vw;
+    top: 50%;
+}
+
+
+

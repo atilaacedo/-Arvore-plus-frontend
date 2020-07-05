@@ -1,0 +1,242 @@
+body{
+	background: url(../Imagens/Mask_Group_3.png);
+	background-size: 100vw 100vh;
+	
+}
+
+.container #slide a#home,
+#modal #slide a#biblioteca,
+#modal2 #slide a#iteraja{
+	background-color: #0075A8;;
+}
+
+a{
+	text-decoration: none;
+}
+
+#topo{
+	text-align: center;
+	background-size: cover;
+}
+
+#topo li{
+	display: inline;
+	margin: 10px;
+	padding: 0 20px;			
+}
+
+
+#topo li a{
+	
+	color: #FFFFFF;
+	text-decoration: none;
+	
+}
+#cara{
+	font-size: 18px;
+	float: right;
+	line-height: 25px;
+	margin:20px;
+	margin-top: 6%;
+	padding-right: 6%;
+	
+}
+
+#mano{
+	font-size: 18px;
+	float: left;
+	line-height: 25px;
+	margin:20px;
+	margin-top: 6%;
+	padding-left: 6%;
+	
+}
+
+
+#topo li img{
+	margin-top: 4% ;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+ .maior{
+	font-size: 24px;
+	line-height: 33px;
+}
+
+
+/*Conteudo do meio*/
+#conteudo{
+	margin-top: 10%;
+	margin-left: 7%;
+	color: white;
+	text-align: left;
+}
+
+.titulo{
+	margin-bottom: 20px;
+}
+
+#paragrafo{
+	width: 20%;
+	font-size: 24px;
+	line-height: 33px;
+	margin-bottom: 30px;
+}
+
+#conectar{
+	text-decoration: none;
+	background-color: #DE423E;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	padding: 10px 20px;
+}
+
+
+/*Modal*/
+#modal{
+	background: black;
+	opacity: 0.5;
+
+    position: fixed;
+
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    display: flex;
+    justify-content: center;
+
+    
+    transition:400ms;
+}
+
+
+#modal.hide{
+	opacity: 0;
+	visibility: hidden;
+  }
+
+ #modal  .content img{
+	margin: 20vh;
+	position: absolute;
+	left: 9vw;
+	opacity: 1.0;
+ }
+
+ #modal  .content #geral{
+	font-size: 20px;
+	line-height: 28px;
+	 color: white ;
+	 position: absolute;
+	 left: 15vw;
+	 margin: 21vh;
+
+ }
+
+ #modal  .content #paragrafo-2{
+	 color: white;
+ }
+
+ #modal  .content p  a span{
+	 color: #45D0C1;
+ }
+
+ .button{
+	 background-color: #45CFC1;
+	 border-radius: 5px;
+	 color: white;
+	 padding: 1% 3%;
+	 }
+
+#modal .content #botao{
+	text-align: end;
+}
+
+
+/*Modal 2*/
+
+#modal2{
+	background: black;
+	opacity: 0.8;
+
+    position: fixed;
+
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    display: flex;
+    justify-content: center;
+
+    
+    transition:400ms;
+}
+
+#modal2.hide2{
+	opacity: 0;
+	visibility: hidden;
+  }
+
+  #modal2 .content2 img{
+	  margin: 20vh;
+	  position: absolute;
+	  right: 9vw;
+  }
+
+  #modal2 .content2 #geral2{
+		margin-top: 35vh;
+		margin-right: 4vw;
+		position: absolute;
+		right: 3vw;
+  }
+
+  #paragrafo-3{
+	font-size: 18px;
+	justify-content: center;
+	color: white;
+  }
+
+  #botao2{
+	  margin-top: 2vh;
+	  text-align: end;
+  }
+
+
+  /*Slideshow*/
+
+ #slide{
+	 position: absolute;
+	 background-size: cover;
+	 bottom: 2vh;
+	width: 100%;
+	text-align: center;	
+ }
+
+ #slide  img{
+	 position: absolute;
+	 bottom: 7vh;
+	 left: 49vw;
+ }
+
+  .bolinha{
+	border-radius: 50%;
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border: 1px solid #FFFFFF;
+	background-color: #FFFFFF;
+	margin: 2vh 0.5vw;
+  }
+
+  h4{
+	  color: white;
+	  font-size: 20px;
+	  position: absolute;
+	  bottom: 14vh;
+	  left: 45.5vw;
+  }
