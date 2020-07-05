@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Biblioteca-Árvore Plus</title>
         <link rel="stylesheet" href="../Style/biblioteca.css">
+        <link rel="stylesheet" href="../Style/meta2.0.css">
         <script src="../Scripts/slide.js" defer></script>
     </head>
     <body id="inicio">
@@ -37,18 +38,35 @@
             </ul>
         </nav>
 
-        <div id="principal">
-            <div id="foto_de_perfil">
-                <img src="../Imagens/perfil-img.png" alt="">
-            </div>
+      <div id="modificar">
+        <div id="foto_de_perfil">
+            <img height="100vh" src="../Imagens/perfil-img.png" alt="">
+        </div>
+        <a href="metas.html">
+            <img  id="seta" src="../Imagens/setinha.png" alt="">
+        </a>
 
-            <div id="dados">
-                <img src="../Imagens/Group 42.png" alt="">
-            </div>
+        <form action="">
+            <div class="input">
+                <label class="text2" for=""> Em 2020 Lerei:</label>
+                <input class="text" type="text" placeholder="20 livros">
+            </div>   
+            <div class="input">
+                <label class="text2" for=""> Livro preferido:</label>
+                <input class="text" type="text" placeholder="Hoje em">
+            </div>   
+            <div class="input">
+                <label class="textarea2"  id="um" for=""> Status de leitura:</label>
+                <textarea class="textarea" name="" placeholder="Escreva aqui" id="" cols="30" rows="10"></textarea>
+            </div>   
+            <div class="input">
+                <label class="textarea2" id="2" for=""> Expectativa de leitura:</label>
+                <textarea class="textarea" name="" placeholder="Escreva aqui" id="" cols="30" rows="10"></textarea>
+            </div>   
 
-          <a href="metas2.0.html" > <img id="setinha" src="../Imagens/Vector 23.png" alt=""> </a>
-        <div>
-
+            <input class="botao" type="submit" value="Salvar">
+        </form>
+        </div>
 
 
     </body>

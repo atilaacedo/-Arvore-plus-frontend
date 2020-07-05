@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Biblioteca-Árvore Plus</title>
         <link rel="stylesheet" href="../Style/biblioteca.css">
-        
+        <link rel="stylesheet" href="../Style/perfil.css">
     </head>
     <body id="inicio">
         <header>
@@ -17,7 +17,7 @@
                <li> <a href="posts.html">Posts</a> </li>
                  <li> <a href="chat.html">Chat</a> </li>
 
-                <li> <a href="perfil.html"><img id="perfil" src="../Imagens/perfil-img.png" alt=""> </a>  </li>
+                <li>  <a href="perfil.html"><img id="perfil" src="../Imagens/perfil-img.png" alt=""> </a></li>
             </ul>    
         </header>
 
@@ -38,23 +38,30 @@
         </nav>
 
         <main>
-            <h2>Mais compartilhados</h2>
-
-            <div id="livros">
-                <table id="exibirlivros">
-                    <tr>
-                        <td> <a href="livros.html">
-                            <div id="img">
-                                <img  src="../Imagens/sHUEr6DyW9dETO4uqQyluz48glRcAHBD1NIFkMvYAtZIsJ19IzrsaRJd8K1Q5VMLA2OsikzbYOh8zoRa.jpg" alt="">
-                            </div>
-                                <h4>Sai fora, coronavírus!</h4>  
-                        </a> 
-                        <h5>Equipe editorial de <br> literatura infantil CCPPG</h5>
-
-                    </td>
-                    </tr>
-                </table>
+            <div id="foto_de_perfil">
+                <img src="../Imagens/perfil-img.png" alt="">
             </div>
+
+            <form action="">
+                <div class="area">
+                    <label for="">Nome do perfil</label>
+                    <input type="text">
+                </div>
+
+                <div class="area">
+                    <label id="senha" for="">Senha</label>
+                    <input type="password">
+                </div>
+
+                <div class="area">
+                    <label id="musica" for="">Música</label>
+                   <select name="" id="">
+                       <option value="">música um</option>
+                       <option value=""> música dois</option>
+                   </select>
+                </div>
+            </form>
+            <a id="sair" href="biblioteca.html">Sair</a>
         </main>
 
     </body>

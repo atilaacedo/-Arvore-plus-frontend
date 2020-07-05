@@ -57,7 +57,7 @@ a{
 
 #chat{
     position: absolute;
-    top: 25%;
+    top: 40%;
     background-color: #00121A;
     right: 1vw;
     transform: matrix(-1, 0, 0, 1, 0, 0);
@@ -98,4 +98,22 @@ a{
 
 #stories img{
     height: 15vh;
+}
+
+#perfil{
+    position: absolute;
+    right: 7vw;
+    top: 2%;
+}
+#direita #perfil {
+    color: white;
+    font-size: 18px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+#perfil a{
+    font-size: 18px;
+    position: absolute;
+    top: 20vh;
+    right: 2vw;
 }

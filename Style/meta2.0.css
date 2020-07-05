@@ -1,0 +1,70 @@
+#modificar #seta{
+    position: absolute;
+    top: 65%;
+    left: 30vw;    
+}
+
+form{
+    position: absolute;
+    top:50%;
+    left: 35vw;
+}
+form .input {
+    display: inline;
+    margin: 20vh 2vw;
+}
+
+.input input, .input textarea   {
+    width: 16vw;
+    background-color: #041B24;
+    border: none;
+    margin: 3vh 0;
+    border-radius: 10px;
+}
+
+.input input.text{
+    background-image: url(../Imagens/Vector\(1\).png);
+    background-repeat: no-repeat;
+    background-size: 3vh;
+    background-position: 20vw;
+    padding: 2vh 3vw;
+}
+
+.input textarea.textarea{
+    background-image: url(../Imagens/Vector\(1\).png);
+    background-repeat: no-repeat;
+    background-position-y: 22vh;
+    background-position-x: 20vw;
+    background-size: 3vh;
+    padding: 2vh 3vw;
+}
+
+label{
+    color: white;
+    font-size: 18px;
+}
+
+label.text2{
+    position: absolute;
+    top: 1%;
+}
+
+label.textarea2{
+    position: absolute;
+    top: 27%;
+}
+
+label#um{
+    position: absolute;
+    left: 0vw;
+}
+
+
+.botao{
+    color: white;
+    background-color: #041B24;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}

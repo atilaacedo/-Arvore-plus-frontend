@@ -20,9 +20,11 @@ header ul li a{
     font-size: 24px;
 }
 
-#perfil{
+ li a img#perfil{
     float: right;
-    height: 13vh
+    height: 13vh;
+    position: absolute;
+    top: 4vh;
 }
 
 #logo{
@@ -126,7 +128,7 @@ td a img:hover{
     position: absolute;
     left: 5vw;
     top: 40vh;
-    height: 20vh;
+    height: 30vh;
 }
 
 #dados img{

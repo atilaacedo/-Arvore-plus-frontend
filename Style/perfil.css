@@ -1,0 +1,41 @@
+form{
+    position: absolute;
+    top: 40%;
+    left: 30vw;
+    margin: 1vh 2vw;
+}
+
+.area{
+    margin: 5vh 0;
+}
+
+ form input, select {
+    width: 40vw;
+    border-radius: 20px;
+    background-color: #041B24;
+    border: none;
+    padding: 2vh 10vw;
+}
+
+label, select{
+    color: white;
+}
+
+#senha{
+    position: absolute;
+    top: 15vh;
+}
+
+#musica{
+    position: absolute;
+    top: 27vh;
+}
+
+#sair{
+    text-decoration: none;
+    color: white;
+    border-bottom: 2px solid #45CFC1;
+    position: absolute;
+    bottom: 10vh;
+    left: 50vw;
+}
